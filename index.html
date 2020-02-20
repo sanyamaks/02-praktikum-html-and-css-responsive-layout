@@ -9,9 +9,9 @@
   <title>Путешествия по России</title>
 </head>
 <body>
-<div class="pages">
+<div class="page">
 
-  <header class="header pages__header">
+  <header class="header page__header">
 
     <img class="header__logo" src="./images/__logo.svg" alt="Логотип. Карта России">
     <div class="header__lang">
@@ -23,14 +23,14 @@
 
   <main class="main">
 
-    <section class="lead page__lead">
+    <section class="lead main__lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
       <img class="lead__image" src="./images/__image.jpg" alt="Путь">
       <p class="lead__caption">ВАША ПОЛКА — ВЕРХНЯЯ</p>
     </section>
 
-    <section class="intro page__intro">
+    <section class="intro main__intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
       <p class="intro__subtitle">Зачем путешествовать по своему дому</p>
 
@@ -78,7 +78,7 @@
 
     </section>
 
-    <section class="photo-grid page__photo-grid">
+    <section class="photo-grid main__photo-grid">
 
       <img class="photo-grid__item" src="./images/__item.jpg" alt="Вид из окна поезда">
       <img class="photo-grid__item" src="./images/__item-1.jpg" alt="Горы сверху">
@@ -95,7 +95,7 @@
 
     </section>
 
-    <section class="places page__places">
+    <section class="places main__places">
 
       <section class="place places__place">
         <h2 class="place__title">Куршская коса</h2>
@@ -116,7 +116,7 @@
         </div>
       </section>
 
-      <section class="place places__place">
+      <section class="place main__place">
         <h2 class="place__title">Кольский</h2>
 
         <div class="place__website">
@@ -196,7 +196,7 @@
 
     </section>
 
-    <section class="video pages__video">
+    <section class="video main__video">
       <h2 class="content-title">В глубины Земли и в дальний космос</h2>
       <p class="content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные
         исследования</p>
@@ -204,7 +204,7 @@
       <ul class="video__container">
 
         <li class="video__item">
-          <img class="video__preview" src="images/video__preview-1.png" alt="Камчатка">
+          <img class="video__item-bg" src="images/video__preview-1.png" alt="Камчатка">
           <button class="video__play"><img class="video__icon-play" src="./images/video__icon-play.svg" alt=""></button>
           <p class="video__duration">6:30</p>
           <h3 class="video__title">Colors of Kamchatka</h3>
@@ -212,7 +212,7 @@
         </li>
 
         <li class="video__item">
-          <img class="video__preview" src="images/video__preview-2.png" alt="Обсерватория">
+          <img class="video__item-bg" src="images/video__preview-2.png" alt="Обсерватория">
           <button class="video__play"><img class="video__icon-play" src="./images/video__icon-play.svg" alt=""></button>
           <p class="video__duration">24:45</p>
           <h3 class="video__title">Обсерватория | Observatory</h3>
@@ -223,8 +223,156 @@
 
     </section>
 
-  </main>
+    <section class="additional main__additional">
+      <h2 class="content-title">А также</h2>
+      <p class="content-subtitle">места, рекомендованные нашими фотографами</p>
 
+      <ul class="additional__container">
+
+        <li class="additional__item">
+          <img class="additional__item-bg" src="./images/additional__item-1.png" alt="Новороссийская бухта">
+          <h3 class="additional__heading">Новороссийская бухта</h3>
+          <p class="additional__text">Главный торговый порт не курорт, но море здесь лазурное, и толпы кораблей на
+            рейде. Залюбуешься.</p>
+        </li>
+
+        <li class="additional__item">
+          <img class="additional__item-bg" src="./images/additional__item-2.png" alt="Аракульский шихан">
+          <h3 class="additional__heading">Аракульский шихан</h3>
+          <p class="additional__text">Даже для Южного Урала, где красиво везде, это пейзаж выдающийся. И там отсутствует
+            несносная мошкá.</p>
+        </li>
+
+        <li class="additional__item">
+          <img class="additional__item-bg" src="./images/additional__item-3.png" alt="Череповец">
+          <h3 class="additional__heading">Череповец</h3>
+          <p class="additional__text">Громадный металлургический комбинат на водном пути с Волги в Балтийское море. В
+            нём
+            есть своя красота.</p>
+        </li>
+
+        <li class="additional__item">
+          <img class="additional__item-bg" src="./images/additional__item-4.png" alt="Никола-Ленивец">
+          <h3 class="additional__heading">Никола-Ленивец</h3>
+          <p class="additional__text">Оцените ответ современных художников идолам капища, которое было тут при древнем
+            поселении на реке Угра.</p>
+        </li>
+
+      </ul>
+
+    </section>
+
+    <section class="comments main__comments">
+      <h2 class="content-title">Фотографы, снимающие Россию</h2>
+      <p class="content-subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</p>
+
+      <ul class="comments__container">
+
+        <li class="comment">
+          <img class="comment__image" src="./images/comment__image-1.png" alt="Аватар">
+          <blockquote class="comment__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте
+            “наружу”…»
+          </blockquote>
+          <p class="comment__author">Виктор Лягушкин</p>
+        </li>
+
+        <li class="comment comments__comment">
+          <img class="comment__image" src="./images/comment__image-2.png" alt="Аватар">
+          <blockquote class="comment__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или
+            фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью, рабочими
+            местами и в конечном счёте наполняют его жизнью.»
+          </blockquote>
+          <p class="comment__author">Иван Хафизов</p>
+        </li>
+
+        <li class="comments">
+          <img class="comment__image" src="./images/comment__image-3.png" alt="Аватар">
+          <blockquote class="comment__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты
+            покажешь, как им плохо, то ты сволочь и всё очернил.»
+          </blockquote>
+          <p class="comment__author">Сергей Максимишин</p>
+        </li>
+
+      </ul>
+
+    </section>
+
+    <section class="cover main__cover">
+
+      <h2 class="cover__title">До Байкала «на собаках»</h2>
+      <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на
+        электричках.</p>
+
+    </section>
+
+    <section class="emblem main__emblem">
+      <h2 class="emblem__title">Природа на гербах
+        российских городов</h2>
+
+      <div class="emblem__container">
+
+        <figure class="emblem__item">
+          <img class="emblem__image" src="./images/emblem__image-1.png" alt="Великий Новгород">
+          <figcaption class="emblem__city">Великий Новгород</figcaption>
+        </figure>
+
+        <figure class="emblem__item">
+          <img class="emblem__image" src="./images/emblem__image-2.png" alt="Ростов Великий">
+          <figcaption class="emblem__city">Ростов Великий</figcaption>
+        </figure>
+
+        <figure class="emblem__item">
+          <img class="emblem__image" src="./images/emblem__image-3.png" alt="Тамбов">
+          <figcaption class="emblem__city">Тамбов</figcaption>
+        </figure>
+
+        <figure class="emblem__item">
+          <img class="emblem__image" src="./images/emblem__image-4.png" alt="Елабуга">
+          <figcaption class="emblem__city">Елабуга</figcaption>
+        </figure>
+
+        <figure class="emblem__item">
+          <img class="emblem__image" src="./images/emblem__image-5.png" alt="Пермь">
+          <figcaption class="emblem__city">Пермь</figcaption>
+        </figure>
+      </div>
+
+    </section>
+
+    <section class="barentsburg main__barentsburg">
+      <h2 class="barentsburg__title">Баренцбург</h2>
+      <p class="barentsburg__coord">78.0648&deg; с.ш. 14.2335&deg; в.д.</p>
+      <iframe class="barentsburg__map" src="https://yandex.ru/map-widget/v1/-/CKUxFM0V" allowfullscreen="true"></iframe>
+
+      <div class="barentsburg__content-row">
+        <p class="barentsburg__text">Арктика и соседство с Норвегией — мало кто знает о жизни самого западного
+          российского посёлка, который находится на Шпицбергене.</p>
+
+        <div class="barentsburg__website">
+          <p class="barentsburg__url-heading">URL</p>
+          <a class="barentsburg__link"
+             href="https://meduza.io/feature/2016/03/02/umeret-ili-roditsya-zdes-prakticheski-nevozmozhno"
+             target="_blank">Умереть
+            или родиться здесь практически невозможно</a>
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+  <footer class="footer page__footer">
+    <nav class="footer__navigation">
+      <ul class="footer__list">
+        <li class="footer__item"><a class="footer__link" href="#">Карты</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Погода</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Расписание</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Календарь</a></li>
+        <li class="footer__item"><a class="footer__link" href="#">Путешествия</a></li>
+      </ul>
+    </nav>
+    <p class="footer__copyright">&copy; 2020. Максимов Александр</p>
+  </footer>
 </div>
 </body>
 </html>
