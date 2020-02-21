@@ -1,0 +1,7 @@
+.footer__item {
+  margin: 0 0 0 18px;
+}
+
+.footer__item:nth-child(1) {
+  margin: 0;
+}

@@ -1,0 +1,12 @@
+@import url("./__item/__item.css");
+
+.photo-grid {
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  /*justify-content: space-between;*/
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 284px);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  width: 100%;
+}

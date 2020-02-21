@@ -1,0 +1,17 @@
+@import url("./__title/__title.css");
+@import url("./__subtitle/__subtitle.css");
+@import url("./__content-row/__content-row.css");
+@import url("./__quote/__quote.css");
+@import url("./__content-column/__content-column.css");
+@import url("./__author/__author.css");
+@import url("./__quote-author/__quote-author.css");
+@import url("./__date/__date.css");
+@import url("./__quote-date/__quote-date.css");
+@import url("./__fact/__fact.css");
+@import url("./__fact-item/__fact-item.css");
+@import url("./__fact-name/__fact-name.css");
+@import url("./__fact-quantity/__fact-quantity.css");
+
+.intro {
+  width: 100%;
+}

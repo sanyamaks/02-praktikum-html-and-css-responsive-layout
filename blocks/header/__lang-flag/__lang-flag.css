@@ -1,0 +1,11 @@
+.header__lang-flag {
+  position: absolute;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  z-index: -1;
+}
+
+.header__lang-flag:checked ~ .header__lang-text {
+  text-decoration-line: underline;
+}

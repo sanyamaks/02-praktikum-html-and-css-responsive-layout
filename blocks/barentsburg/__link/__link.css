@@ -1,0 +1,13 @@
+.barentsburg__link {
+  width: 282px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.barentsburg__link:hover {
+  opacity: .5;
+  transition: opacity .1s ease-in-out;
+}

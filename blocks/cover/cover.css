@@ -1,0 +1,10 @@
+@import url("./__title/__title.css");
+@import url("./__subtitle/__subtitle.css");
+
+.cover {
+  background-image: url("../../images/cover-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 594px;
+  width: 1184px;
+}

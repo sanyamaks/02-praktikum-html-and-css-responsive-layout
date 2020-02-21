@@ -2,21 +2,28 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="vendor/normalize.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия по России</title>
 </head>
-<body>
+<body class="body">
 <div class="page">
 
   <header class="header page__header">
 
     <img class="header__logo" src="./images/__logo.svg" alt="Логотип. Карта России">
     <div class="header__lang">
-      <a href="#" class="header__lang-item">Ru</a>
-      <a href="#" class="header__lang-item">En</a>
+
+      <label class="header__lang-item">
+        <input class="header__lang-flag" type="radio" name="lang" checked>
+        <span class="header__lang-text">Ru</span>
+      </label>
+
+      <label class="header__lang-item">
+        <input class="header__lang-flag" type="radio" name="lang">
+        <span class="header__lang-text">En</span>
+      </label>
+
     </div>
 
   </header>
@@ -26,7 +33,7 @@
     <section class="lead main__lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img class="lead__image" src="./images/__image.jpg" alt="Путь">
+      <img class="lead__image" src="images/lead__image.jpg" alt="Путь">
       <p class="lead__caption">ВАША ПОЛКА — ВЕРХНЯЯ</p>
     </section>
 
@@ -80,18 +87,18 @@
 
     <section class="photo-grid main__photo-grid">
 
-      <img class="photo-grid__item" src="./images/__item.jpg" alt="Вид из окна поезда">
-      <img class="photo-grid__item" src="./images/__item-1.jpg" alt="Горы сверху">
-      <img class="photo-grid__item" src="./images/__item-2.jpg" alt="Поле с сеном">
-      <img class="photo-grid__item" src="./images/__item-3.jpg" alt="Сочи. Лес в тумане">
-      <img class="photo-grid__item" src="./images/__item-4.jpg" alt="Колесо на льду">
-      <img class="photo-grid__item" src="./images/__item-5.jpg" alt="Байкал. Берег">
-      <img class="photo-grid__item" src="./images/__item-6.jpg" alt="Эльбрус">
-      <img class="photo-grid__item" src="./images/__item-7.jpg" alt="Знак пешеходный переход">
-      <img class="photo-grid__item" src="./images/__item-8.jpg" alt="Камчатка. Горы">
-      <img class="photo-grid__item" src="./images/__item-9.jpg" alt="Камчатка. Гора">
-      <img class="photo-grid__item" src="./images/__item-10.jpg" alt="Байкал. Горы">
-      <img class="photo-grid__item" src="./images/__item-11.jpg" alt="Ергаки. Горы">
+      <img class="photo-grid__item" src="images/photo-grid__item.jpg" alt="Вид из окна поезда">
+      <img class="photo-grid__item" src="images/photo-grid__item-1.jpg" alt="Горы сверху">
+      <img class="photo-grid__item" src="images/photo-grid__item-2.jpg" alt="Поле с сеном">
+      <img class="photo-grid__item" src="images/photo-grid__item-3.jpg" alt="Сочи. Лес в тумане">
+      <img class="photo-grid__item" src="images/photo-grid__item-4.jpg" alt="Колесо на льду">
+      <img class="photo-grid__item" src="images/photo-grid__item-5.jpg" alt="Байкал. Берег">
+      <img class="photo-grid__item" src="images/photo-grid__item-6.jpg" alt="Эльбрус">
+      <img class="photo-grid__item" src="images/photo-grid__item-7.jpg" alt="Знак пешеходный переход">
+      <img class="photo-grid__item" src="images/photo-grid__item-8.jpg" alt="Камчатка. Горы">
+      <img class="photo-grid__item" src="images/photo-grid__item-9.jpg" alt="Камчатка. Гора">
+      <img class="photo-grid__item" src="images/photo-grid__item-10.jpg" alt="Байкал. Горы">
+      <img class="photo-grid__item" src="images/photo-grid__item-11.jpg" alt="Ергаки. Горы">
 
     </section>
 
@@ -116,7 +123,7 @@
         </div>
       </section>
 
-      <section class="place main__place">
+      <section class="place places__place">
         <h2 class="place__title">Кольский</h2>
 
         <div class="place__website">
@@ -264,12 +271,13 @@
 
     <section class="comments main__comments">
       <h2 class="content-title">Фотографы, снимающие Россию</h2>
-      <p class="content-subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</p>
+      <p class="content-subtitle comments__content-subtitle">Природа и люди вдохновили их работы, удостоенные наград на
+        международных конкурсах</p>
 
       <ul class="comments__container">
 
-        <li class="comment">
-          <img class="comment__image" src="./images/comment__image-1.png" alt="Аватар">
+        <li class="comment comments__comment">
+          <img class="comment__image" src="images/comment__image-1.png" alt="Аватар">
           <blockquote class="comment__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте
             “наружу”…»
           </blockquote>
@@ -277,7 +285,7 @@
         </li>
 
         <li class="comment comments__comment">
-          <img class="comment__image" src="./images/comment__image-2.png" alt="Аватар">
+          <img class="comment__image" src="images/comment__image-2.png" alt="Аватар">
           <blockquote class="comment__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или
             фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью, рабочими
             местами и в конечном счёте наполняют его жизнью.»
@@ -285,8 +293,8 @@
           <p class="comment__author">Иван Хафизов</p>
         </li>
 
-        <li class="comments">
-          <img class="comment__image" src="./images/comment__image-3.png" alt="Аватар">
+        <li class="comment comments__comment">
+          <img class="comment__image" src="images/comment__image-3.png" alt="Аватар">
           <blockquote class="comment__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты
             покажешь, как им плохо, то ты сволочь и всё очернил.»
           </blockquote>
@@ -312,27 +320,27 @@
       <div class="emblem__container">
 
         <figure class="emblem__item">
-          <img class="emblem__image" src="./images/emblem__image-1.png" alt="Великий Новгород">
+          <img class="emblem__image" src="images/emblem__image-1.png" alt="Великий Новгород">
           <figcaption class="emblem__city">Великий Новгород</figcaption>
         </figure>
 
         <figure class="emblem__item">
-          <img class="emblem__image" src="./images/emblem__image-2.png" alt="Ростов Великий">
+          <img class="emblem__image" src="images/emblem__image-2.png" alt="Ростов Великий">
           <figcaption class="emblem__city">Ростов Великий</figcaption>
         </figure>
 
         <figure class="emblem__item">
-          <img class="emblem__image" src="./images/emblem__image-3.png" alt="Тамбов">
+          <img class="emblem__image" src="images/emblem__image-3.png" alt="Тамбов">
           <figcaption class="emblem__city">Тамбов</figcaption>
         </figure>
 
         <figure class="emblem__item">
-          <img class="emblem__image" src="./images/emblem__image-4.png" alt="Елабуга">
+          <img class="emblem__image" src="images/emblem__image-4.png" alt="Елабуга">
           <figcaption class="emblem__city">Елабуга</figcaption>
         </figure>
 
         <figure class="emblem__item">
-          <img class="emblem__image" src="./images/emblem__image-5.png" alt="Пермь">
+          <img class="emblem__image" src="images/emblem__image-5.png" alt="Пермь">
           <figcaption class="emblem__city">Пермь</figcaption>
         </figure>
       </div>
@@ -342,7 +350,7 @@
     <section class="barentsburg main__barentsburg">
       <h2 class="barentsburg__title">Баренцбург</h2>
       <p class="barentsburg__coord">78.0648&deg; с.ш. 14.2335&deg; в.д.</p>
-      <iframe class="barentsburg__map" src="https://yandex.ru/map-widget/v1/-/CKUxFM0V" allowfullscreen="true"></iframe>
+      <iframe class="barentsburg__map" src="https://yandex.ru/map-widget/v1/-/CKUxFM0V" allowfullscreen></iframe>
 
       <div class="barentsburg__content-row">
         <p class="barentsburg__text">Арктика и соседство с Норвегией — мало кто знает о жизни самого западного

@@ -1,0 +1,7 @@
+.video__icon-play {
+  width: 100%;
+}
+
+.video__icon-play:hover {
+  transform: scale(1.1);
+}

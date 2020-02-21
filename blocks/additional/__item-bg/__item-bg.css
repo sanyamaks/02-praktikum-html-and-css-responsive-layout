@@ -1,0 +1,8 @@
+.additional__item-bg {
+  object-fit: contain;
+  object-position: top left;
+}
+
+.additional__item-bg:hover {
+  opacity: .5;
+}

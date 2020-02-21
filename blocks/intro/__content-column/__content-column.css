@@ -1,0 +1,5 @@
+.intro__content-column {
+  width: 283px;
+  display: flex;
+  flex-direction: column;
+}

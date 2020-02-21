@@ -1,0 +1,15 @@
+@import url("./__container/__container.css");
+@import url("./__item/__item.css");
+@import url("./__item-bg/__item-bg.css");
+@import url("./__play/__play.css");
+@import url("./__icon-play/__icon-play.css");
+@import url("./__duration/__duration.css");
+@import url("./__title/__title.css");
+@import url("./__subtitle/__subtitle.css");
+
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}

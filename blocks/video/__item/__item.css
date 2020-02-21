@@ -1,0 +1,17 @@
+.video__item {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 323px;
+  width: 583px;
+  border-radius: 5px;
+  background: black;
+}
+
+.video__item:nth-child(2n) {
+  margin-left: 18px;
+}
+
+.video__item:hover .video__item-bg {
+  opacity: .5;
+}

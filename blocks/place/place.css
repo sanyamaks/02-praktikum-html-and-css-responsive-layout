@@ -1,0 +1,17 @@
+@import url("__title/__title.css");
+@import url("__website/__website.css");
+@import url("__url-heading/__url-heading.css");
+@import url("__url/__url.css");
+@import url("__image/__image.css");
+@import url("__paragraphs/__paragraphs.css");
+@import url("__paragraph/__paragraph.css");
+
+.place {
+  /*display: flex;*/
+  /*flex-wrap: wrap;*/
+  /*justify-content: space-between;*/
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: 460px 484px;
+  grid-row-gap: 60px;
+}
