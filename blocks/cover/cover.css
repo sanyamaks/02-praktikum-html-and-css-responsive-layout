@@ -4,20 +4,11 @@
 
 .cover {
   position: relative;
-  background-image: url("../../images/cover-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 594px;
   width: 1184px;
+  background-color: black;
 }
 
-.cover:hover:after {
-  content: "";
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: black;
+.cover:hover .cover__cover-bg {
   opacity: .5;
 }
