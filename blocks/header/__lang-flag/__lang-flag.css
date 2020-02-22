@@ -1,5 +1,7 @@
 .header__lang-flag {
   position: absolute;
+  top: 0;
+  left: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
