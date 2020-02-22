@@ -6,6 +6,7 @@
 @import url("./__duration/__duration.css");
 @import url("./__title/__title.css");
 @import url("./__subtitle/__subtitle.css");
+@import url("./__content-subtitle/__content-subtitle.css");
 
 .video {
   display: flex;

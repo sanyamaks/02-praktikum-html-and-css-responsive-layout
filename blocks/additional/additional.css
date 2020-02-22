@@ -3,6 +3,7 @@
 @import url("./__item-bg/__item-bg.css");
 @import url("./__heading/__heading.css");
 @import url("./__text/__text.css");
+@import url("./__content-subtitle/__content-subtitle.css");
 
 .additional {
   display: flex;
