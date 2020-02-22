@@ -1,8 +1,0 @@
-.header__lang-item {
-  display: flex;
-  align-items: center;
-}
-
-.header__lang-item:not(:first-child) {
-  margin-left: 18px;
-}

@@ -6,5 +6,16 @@
   height: 330px;
   width: 284px;
   border-radius: 5px;
+}
+
+.additional__item:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   background: black;
+  opacity: .5;
+  border-radius: 5px;
 }

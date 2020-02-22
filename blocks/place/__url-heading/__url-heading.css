@@ -1,4 +1,5 @@
 .place__url-heading {
+  width: max-content;
   margin: 0;
   font-size: 12px;
   font-weight: normal;

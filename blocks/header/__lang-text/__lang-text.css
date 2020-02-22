@@ -12,3 +12,7 @@
   opacity: .5;
   transition: opacity .1s ease-in-out;
 }
+
+.header__lang-text:not(:first-child) {
+  margin-left: 18px;
+}

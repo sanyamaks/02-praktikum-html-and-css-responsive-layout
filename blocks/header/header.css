@@ -1,8 +1,7 @@
 @import url("./__logo/__logo.css");
 @import url("./__lang/__lang.css");
-@import url("./__lang-item/__lang-item.css");
-@import url("./__lang-flag/__lang-flag.css");
 @import url("./__lang-text/__lang-text.css");
+@import url("./__lang-text/_underline/_underline.css");
 
 
 .header {

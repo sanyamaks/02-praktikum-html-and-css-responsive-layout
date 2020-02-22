@@ -1,7 +1,9 @@
 .video__icon-play {
-  width: 100%;
+  height: 41px;
+  width: 41px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 1;
 }
 
-.video__icon-play:hover {
-  transform: scale(1.1);
-}

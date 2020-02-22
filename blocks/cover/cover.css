@@ -1,10 +1,23 @@
+@import url("./__link/__link.css");
 @import url("./__title/__title.css");
 @import url("./__subtitle/__subtitle.css");
 
 .cover {
+  position: relative;
   background-image: url("../../images/cover-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 594px;
   width: 1184px;
+}
+
+.cover:hover:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  opacity: .5;
 }

@@ -1,8 +1,6 @@
 .additional__item-bg {
+  position: relative;
   object-fit: contain;
   object-position: top left;
 }
 
-.additional__item-bg:hover {
-  opacity: .5;
-}
