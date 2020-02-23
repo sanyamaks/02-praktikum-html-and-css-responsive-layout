@@ -7,25 +7,12 @@
   <title>Путешествия по России</title>
 </head>
 <body class="page">
-<!--
-  Нужно исправить:
-  Этот див лишняя обёртка. Стили из класса .body можно перенести в класс .page, затем класс .page повесить на тэг body, а див удалить.
--->
-
 <header class="header page__header">
 
   <img class="header__logo" src="./images/__logo.svg" alt="Логотип. Карта России">
   <div class="header__lang">
     <p class="header__lang-text header__lang-text_underline">Ru</p>
     <p class="header__lang-text">En</p>
-    <!--
-      Нужно исправить:
-      Интересное решение с радио кнопками =)
-      Но этот элемент специально задуман для того, чтобы студент попрактиковался в написании БЭМ модификаторов.
-      У вас и в "Чеклист для самопроверки." есть пункт "Используется БЭМ-модификатор для подчёркивания одного из языков.".
-
-      Так что надо переверстать этот элемент, чтобы "использовался БЭМ-модификатор для подчёркивания одного из языков".
-    -->
   </div>
 
 </header>
@@ -37,7 +24,6 @@
     <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
     <img class="lead__image" src="images/lead__image.jpg" alt="Путь">
     <p class="lead__caption">ваша полка — верхняя</p>
-    <!-- Можно лучше: делать текст заглавными буквами лучше с помощью css. Специально для этого есть text-transform: uppercase; -->
   </section>
 
   <section class="intro main__intro">
@@ -57,11 +43,6 @@
       <div class="intro__content-column">
         <p class="intro__info">Автор текста: <span class="intro__info-text">Имя Автора</span></p>
         <p class="intro__info intro__info_extra-bold">Дата: <span class="intro__info-text">16.01.2020</span></p>
-        <!--
-          Нужно исправить:
-          У этих двух строчек текста одинаковые стили.
-          Так что 4 класса здесь перебор. Хватит двух - один для параграфа, второй для спана.
-        -->
       </div>
 
     </div>
@@ -82,11 +63,6 @@
 
       <li class="intro__fact-item">Аэропортов <span class="intro__fact-quantity">241</span>
       </li>
-      <!--
-        Нужно исправить:
-        В этом списке тэг <p> не нужен, это бесполезная обёртка.
-        Стили из .intro__fact-name можно перенести в .intro__fact-item, а тэг удалить.
-      -->
     </ul>
 
   </section>
@@ -104,23 +80,16 @@
     <img class="photo-grid__item" src="images/photo-grid__item-10.jpg" alt="Камчатка. Гора">
     <img class="photo-grid__item" src="images/photo-grid__item-11.jpg" alt="Байкал. Горы">
     <img class="photo-grid__item" src="images/photo-grid__item-12.jpg" alt="Ергаки. Горы">
-    <!-- Отлично: хорошие альты -->
-    <!-- Нужно исправить: картинки расположены не в том порядке. -->
   </section>
 
   <section class="places main__places">
 
     <section class="place places__place">
-      <!--
-        Можно лучше:
-
-      -->
       <h2 class="place__title">Куршская коса</h2>
 
       <div class="place__website">
         <p class="place__url-heading">URL</p>
         <a class="place__url" href="http://park-kosa.ru/" target="_blank">park-kosa.ru</a>
-        <!-- Нужно исправить: сейчас ссылка имеет ширину 484px (попробуйте поводить курсором справа от ссылки) -->
       </div>
       <img class="place__image" src="images/place__image-1.png" alt="Куршская коса">
       <div class="place__paragraphs">
@@ -131,7 +100,6 @@
           исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие
           россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и
           запах стального, прохладного моря.</p>
-        <!-- Нужно исправить: между параграфами должен быть отступ реализованный с помощью css. -->
       </div>
     </section>
 
@@ -159,7 +127,6 @@
       <div class="place__website">
         <p class="place__url-heading">URL</p>
         <a class="place__url" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" target="_blank">Facebook</a>
-        <!-- Нужно исправить: эта ссылка должна вести сюда - https://www.facebook.com/vera.bashmakova/posts/10156011613718822 -->
       </div>
       <img class="place__image" src="./images/place__image-3.png" alt="Алтайский лес из окна">
       <div class="place__paragraphs">
@@ -244,14 +211,6 @@
       </li>
 
     </ul>
-    <!--
-      Нужно исправить:
-      Оба видео должны быть обёрнуты в ссылки.
-      Клик по первому видео должен вести сюда - https://vimeo.com/81106671
-      По второму сюда - https://vimeo.com/290675450
-
-      Ну и т.к. эти видео должны быть ссылками кнопки (video__play) можно убрать.
-    -->
   </section>
 
   <section class="additional main__additional">
@@ -290,16 +249,10 @@
       </li>
 
     </ul>
-    <!--
-      Нужно исправить:
-      Картинки в этой секции должны быть затемнены постоянно, а не по ховеру.
-      Затемнение лучше делать с помощью псевдоэлементов (::before или ::after)
-    -->
   </section>
 
   <section class="comments main__comments">
     <h2 class="content-title content-title_line-height_smaller">Фотографы, снимающие Россию</h2>
-    <!-- Нужно исправить: по макету слово "Фотографы," должно быть на первой строчке, а "снимающие России" на второй. Можно этого добиться, например, с помощью max-width: 800px; -->
     <p class="content-subtitle comments__content-subtitle">Природа и люди вдохновили их работы, удостоенные наград на
       международных конкурсах</p>
 
@@ -341,11 +294,6 @@
       <p class="cover__subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от столицы до Байкала на
         электричках.</p>
     </a>
-    <!--
-      Нужно исправить:
-      Всё содержимое этой секции нужно обернуть в ссылку. Ссылка должна вести сюда - https://stampsy.com/na-elektrichkakh-do-baikala
-      И как и у блоков с видео здесь должно быть затемнение картинки по ховеру.
-     -->
   </section>
 
   <section class="emblem main__emblem">
@@ -379,7 +327,6 @@
         <figcaption class="emblem__city">Пермь</figcaption>
       </figure>
     </div>
-    <!-- Отлично: правильно подобраны тэги. -->
   </section>
 
   <section class="barentsburg main__barentsburg">
@@ -408,18 +355,13 @@
   <nav class="footer__navigation">
     <ul class="footer__list">
       <li class="footer__item"><a class="footer__link" href="https://yandex.ru/maps/" target="_blank">Карты</a></li>
-      <!-- Нужно исправить: эта ссылка должна вести сюда - https://yandex.ru/maps/ -->
       <li class="footer__item"><a class="footer__link" href="https://yandex.ru/pogoda/" target="_blank">Погода</a></li>
-      <!-- Нужно исправить: эта ссылка должна вести сюда - https://yandex.ru/pogoda/ -->
       <li class="footer__item"><a class="footer__link" href="https://rasp.yandex.ru/" target="_blank">Расписание</a>
       </li>
-      <!-- Нужно исправить: эта ссылка должна вести сюда - https://rasp.yandex.ru/ -->
       <li class="footer__item"><a class="footer__link" href="https://calendar.yandex.ru/" target="_blank">Календарь</a>
       </li>
-      <!-- Нужно исправить: эта ссылка должна вести сюда - https://calendar.yandex.ru/ -->
       <li class="footer__item"><a class="footer__link" href="https://travel.yandex.ru/" target="_blank">Путешествия</a>
       </li>
-      <!-- Нужно исправить: эта ссылка должна вести сюда - https://travel.yandex.ru/ -->
     </ul>
   </nav>
   <p class="footer__copyright">&copy; 2020. Максимов Александр</p>
@@ -427,40 +369,4 @@
 </body>
 </html>
 
-<!--
-  В целом работа хорошая.
-
-  Что понравилось:
-  - Внешне страница сильно похожа на то, что нарисовано в фигме
-  - Валидатор не выдает ошибок
-  - Хорошие альты у изображений
-  - Использование гридов
-  - Создана файловая структура по БЭМ
-  - У ссылок на другие сайты есть taget="_blank"
-  - Кажется, что нет ошибок по БЭМ
-
-  Можно лучше:
-  - Если просто скопировать из фигмы все отступы, размеры шрифтов, высоты строк и всё прочее, то на выходе работа всё равно будет отличаться от того, что нарисовано в фигме.
-    Чтобы проверить насколько ваша работа на самом деле отличается от того, что нарисовано в фигме можно воспользоваться плагином для хрома - https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi
-
-  Нужно исправить:
-  - Все "Нужно исправить"
-  - Цитата из чеклиста для самопроверки - "Затемняется изображение при :hover на любую область блоков video или cover (в т. ч. и при наведении на текстовые элементы)."
-  - Шрифты подключены неправильно. Ссылки на один формат шрифтов, а в format() написан другой.
-    Ну и .ttf и woff не нужны. Все последние версии браузеров (кроме IE 11) поддерживают woff2.
-    Вот здесь можно посмотреть подробнее про поддержку шрифтов браузерами - https://caniuse.com/#search=woff2
-    @font-face {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 400;
-      font-display: swap;
-      src: url("../../fonts/Inter-Regular.ttf") format("woff2"), --- ссылка на ttf, а в format() woff2.
-      url("../../fonts/Inter-Regular.woff") format("woff"),
-      url("../../fonts/Inter-Regular.woff2") format("truetype");
-    }
-
-  Комментарии "можно лучше" носят рекомендательный характер, их выполнение остается на Ваше усмотрение.
-  Комментарии "надо исправить" являются обязательными, только при выполнении всех "надо исправить" работа будет зачтена.
-  Пожалуйста, не удаляйте комментарии до следующей итерации.
-  Для вашего удобства, рекомендую помечать каким-нибудь символом комментарии, которые вы выполнили.
--->
+<!-- Принято -->
