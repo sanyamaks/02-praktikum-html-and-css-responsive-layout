@@ -1,5 +1,36 @@
 .comments__comment {
-  width: 382px;
   min-width: 382px;
   max-width: 382px;
+}
+
+@media screen and (max-width: 1280px) {
+  .comments__comment {
+    min-width: 296px;
+    max-width: 296px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .comments__comment {
+    min-width: 382px;
+    max-width: 382px;
+  }
+
+  .comments__comment:not(:first-child) {
+    margin: 51px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .comments__comment {
+    min-width: 343px;
+    max-width: 343px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .comments__comment {
+    min-width: 288px;
+    max-width: 288px;
+  }
 }

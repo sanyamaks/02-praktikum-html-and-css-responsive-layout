@@ -1,3 +1,15 @@
 .video__content-subtitle {
-  margin: 32px 0 0 0 !important;
+  margin: 48px 0 0 0 !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .video__content-subtitle {
+    margin: 24px 0 0 0 !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .video__content-subtitle {
+    margin: 20px 0 0 0 !important;
+  }
 }

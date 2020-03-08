@@ -2,3 +2,16 @@
   margin: 81px 0 0 0;
   max-width: 984px;
 }
+
+@media screen and (max-width: 1024px) {
+  .main__intro {
+    max-width: calc(100% - 48px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main__intro {
+    max-width: calc(100% - 32px);
+    margin: 64px 0 0 0;
+  }
+}

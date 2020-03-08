@@ -1,7 +1,17 @@
-.footer__item {
+.footer__item:not(:first-child) {
   margin: 0 0 0 20px;
 }
 
-.footer__item:nth-child(1) {
-  margin: 0;
+
+@media screen and (max-width: 1280px) {
+  .footer__item:not(:first-child) {
+    margin: 0 0 0 18px;
+  }
 }
+
+@media screen and (max-width: 768px) {
+  .footer__item:not(:first-child) {
+    margin: 14px 0 0 0;
+  }
+}
+

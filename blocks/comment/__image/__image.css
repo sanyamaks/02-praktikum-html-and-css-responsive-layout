@@ -3,3 +3,10 @@
   width: 97px;
   border-radius: 50%;
 }
+
+@media screen and (max-width: 375px) {
+  .comment__image {
+    height: 96px;
+    width: 96px;
+  }
+}

@@ -7,5 +7,26 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: #FFFFFF;
-  /*border: 1px solid red;*/
+}
+
+
+@media screen and (max-width: 1024px) {
+  .lead__caption {
+    margin: 16px 0 0 0;
+    padding: 0 0 0 24px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    margin: 12px 0 0 0;
+    padding: 0 0 0 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .lead__caption {
+    margin: 8px 0 0 0;
+  }
 }

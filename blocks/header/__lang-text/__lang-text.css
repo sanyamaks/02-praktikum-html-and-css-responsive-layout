@@ -16,3 +16,14 @@
 .header__lang-text:not(:first-child) {
   margin-left: 18px;
 }
+
+@media screen and (max-width: 375px) {
+  .header__lang-text {
+    font-size: 18px;
+    line-height: 17px;
+  }
+
+  .header__lang-text:not(:first-child) {
+    margin-left: 16px;
+  }
+}

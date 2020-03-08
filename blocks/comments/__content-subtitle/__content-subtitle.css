@@ -1,3 +1,15 @@
 .comments__content-subtitle {
   margin: 38px 0 0 0 !important;
 }
+
+@media screen and (max-width: 1024px) {
+  .comments__content-subtitle {
+    margin: 24px 0 0 0 !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .comments__content-subtitle {
+    margin: 20px 0 0 0 !important;
+  }
+}

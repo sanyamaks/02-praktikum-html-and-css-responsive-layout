@@ -2,7 +2,26 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin: 64px 0 0 0;
+  margin: 72px 0 0 0;
   padding: 0;
   list-style-type: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .comments__container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .comments__container {
+    margin: 48px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .comments__container {
+    margin: 38px 0 0 0;
+  }
 }

@@ -1,0 +1,11 @@
+@media screen and (max-width: 1024px) {
+  .video__duration_observatory {
+    top: 82px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .video__duration_observatory {
+    top: 80px;
+  }
+}
