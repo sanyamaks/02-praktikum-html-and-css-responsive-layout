@@ -1,6 +1,19 @@
 .page__header {
-  width: calc(100% - 96px);
+  width: 1184px;
   margin-top: 30px;
+}
+
+@media screen and (max-width: 1280px) {
+  .page__header {
+    width: 928px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page__header {
+    width: calc(100% - 46px);
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {

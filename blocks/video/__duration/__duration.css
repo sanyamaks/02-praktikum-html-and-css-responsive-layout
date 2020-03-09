@@ -30,6 +30,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .video__duration {
+    top: 108px;
+  }
+}
+
 @media screen and (max-width: 375px) {
   .video__duration {
     left: 16px;

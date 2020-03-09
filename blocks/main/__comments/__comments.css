@@ -1,15 +1,28 @@
 .main__comments {
   max-width: 1184px;
-  margin: 102px 0 0 0;
+  margin: 108px 0 0 0;
 }
 
 @media screen and (max-width: 1280px) {
   .main__comments {
     max-width: 928px;
+    margin: 112px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main__comments {
+    margin: 105px 0 0 0;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .main__comments {
+    margin: 67px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
   .main__comments {
     margin: 65px 0 0 0;
   }

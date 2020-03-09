@@ -9,6 +9,7 @@
 @import url("../blocks/comments/comments.css");
 @import url("../blocks/comment/comment.css");
 @import url("../blocks/content-title/content-title.css");
+@import url("../blocks/content-title/_line-height_smaller/_line-height_smaller.css");
 @import url("../blocks/cover/cover.css");
 @import url("../blocks/header/header.css");
 @import url("../blocks/main/main.css");

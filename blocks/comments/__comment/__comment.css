@@ -26,11 +26,17 @@
     min-width: 343px;
     max-width: 343px;
   }
+  .comments__comment:not(:first-child) {
+    margin: 49px 0 0 0;
+  }
 }
 
 @media screen and (max-width: 375px) {
   .comments__comment {
     min-width: 288px;
     max-width: 288px;
+  }
+  .comments__comment:not(:first-child) {
+    margin: 51px 0 0 0;
   }
 }

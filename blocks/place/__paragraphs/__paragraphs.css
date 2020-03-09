@@ -7,8 +7,14 @@
 
 @media screen and (max-width: 768px) {
   .place__paragraphs {
-    margin: 24px 0 0 0;
+    margin: 22px 0 0 0;
     padding: 0 16px 0 16px;
     box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .place__paragraphs {
+    margin: 24px 0 0 0;
   }
 }

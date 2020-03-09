@@ -13,7 +13,7 @@
   .photo-grid {
     grid-template-columns: repeat(auto-fit, 300px);
     grid-column-gap: 14px;
-    grid-row-gap: 14px;
+    grid-row-gap: 15px;
   }
 }
 
@@ -21,14 +21,14 @@
   .photo-grid {
     grid-template-columns: repeat(auto-fit, 352px);
     grid-column-gap: 16px;
-    grid-row-gap: 16px;
+    grid-row-gap: 17px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .photo-grid {
     grid-template-columns: repeat(auto-fit, 343px);
-    grid-row-gap: 18px;
+    grid-row-gap: 21px;
   }
 }
 

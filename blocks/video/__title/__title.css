@@ -13,14 +13,14 @@
 
 @media screen and (max-width: 1280px) {
   .video__title {
-    bottom: 66px;
+    bottom: 60px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .video__title {
     left: 24px;
-    bottom: 52px;
+    bottom: 46px;
     font-size: 24px;
     line-height: 26px;
   }
@@ -28,7 +28,7 @@
 
 @media screen and (max-width: 768px) {
   .video__title {
-    bottom: 42px;
+    bottom: 44px;
   }
 }
 

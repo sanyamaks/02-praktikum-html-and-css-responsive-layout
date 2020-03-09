@@ -1,13 +1,26 @@
 .main__cover {
-  margin: 102px 0 0 0;
+  margin: 94px 0 0 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .main__cover {
+    margin: 98px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main__cover {
+    margin: 102px 0 0 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .main__cover {
-    margin: 48px 0 0 0;
+    margin: 52px 0 0 0;
   }
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 375px) {
   .main__cover {
     margin: 68px 0 0 0;
   }

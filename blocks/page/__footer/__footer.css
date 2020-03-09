@@ -1,19 +1,19 @@
 .page__footer {
   width: 1184px;
-  margin: 158px 0 48px 0;
+  margin: 154px 0 48px 0;
 }
 
 @media screen and (max-width: 1280px) {
   .page__footer {
-    margin: 160px 0 48px 0;
+    margin: 152px 0 48px 0;
     width: calc(100% - 96px);
   }
 }
 
 @media screen and (max-width: 1024px) {
   .page__footer {
-    margin: 102px 0 24px 0;
-    width: calc(100% - 34px);
+    margin: 100px 0 24px 0;
+    width: calc(100% - 44px);
   }
 }
 

@@ -6,13 +6,14 @@
 @media screen and (max-width: 1280px) {
   .main__places {
     max-width: 928px;
-    margin: 102px 0 0 0;
+    margin: 114px 0 0 0;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .main__places {
     max-width: 720px;
+    margin: 106px 0 0 0;
   }
 }
 

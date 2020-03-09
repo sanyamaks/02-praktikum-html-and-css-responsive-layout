@@ -3,6 +3,12 @@
   max-width: 984px;
 }
 
+@media screen and (max-width: 1280px) {
+  .main__intro {
+    max-width: calc(100% - 96px);
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .main__intro {
     max-width: calc(100% - 48px);

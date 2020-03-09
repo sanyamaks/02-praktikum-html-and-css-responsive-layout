@@ -2,20 +2,32 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin: 72px 0 0 0;
+  margin: 62px 0 0 0;
   padding: 0;
   list-style-type: none;
 }
 
+@media screen and (max-width: 1280px) {
+  .video__container {
+    margin: 64px 0 0 0;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .video__container {
-    margin: 56px 0 0 0;
+    margin: 48px 0 0 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .video__container {
-    margin: 28px 0 0 0;
+    margin: 26px 0 0 0;
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .video__container {
+    margin: 28px 0 0 0;
   }
 }

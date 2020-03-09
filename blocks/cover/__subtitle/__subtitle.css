@@ -3,7 +3,7 @@
   margin: 0;
   position: absolute;
   left: 50%;
-  bottom: 48px;
+  bottom: 40px;
   transform: translate(-50%, 0);
   font-size: 18px;
   font-weight: normal;
@@ -13,10 +13,15 @@
   z-index: 2;
 }
 
+@media screen and (max-width: 1280px) {
+  .cover__subtitle {
+    bottom: 38px;
+  }
+}
 
 @media screen and (max-width: 1024px) {
   .cover__subtitle {
-    bottom: 40px;
+    bottom: 44px;
   }
 }
 
@@ -25,6 +30,12 @@
     width: 270px;
     font-size: 14px;
     line-height: 17px;
+    bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .cover__subtitle {
     bottom: 24px;
   }
 }

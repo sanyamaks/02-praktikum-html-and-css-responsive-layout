@@ -1,6 +1,6 @@
 .comment__author {
   width: 100%;
-  margin: 24px 0 0 0;
+  margin: 10px 0 0 0;
   font-size: 14px;
   font-weight: 900;
   line-height: 24px;
@@ -10,14 +10,20 @@
 @media screen and (max-width: 1280px) {
   .comment__author {
     margin: 16px 0 0 0;
-    text-align: center;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .comment__author {
+    margin: 13px 0 0 0;
     order: 1;
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .comment__author {
+    margin: 16px 0 0 0;
   }
 }
 
