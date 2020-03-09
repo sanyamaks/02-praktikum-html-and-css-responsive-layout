@@ -31,14 +31,17 @@
 @media screen and (max-width: 768px) {
   .cover__title {
     top: 52%;
-    width: 240px;
-    font-size: 32px;
-    line-height: 35px;
+    width: 64vw;
+    font-size: 8.5vw;
+    line-height: 9.3vw;
   }
 }
 
 @media screen and (max-width: 375px) {
   .cover__title {
     top: 46%;
+    width: 240px;
+    font-size: 32px;
+    line-height: 35px;
   }
 }

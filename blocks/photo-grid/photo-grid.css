@@ -27,8 +27,14 @@
 
 @media screen and (max-width: 768px) {
   .photo-grid {
-    grid-template-columns: repeat(auto-fit, 343px);
+    grid-template-columns: repeat(2, max-content);
     grid-row-gap: 21px;
+  }
+}
+
+@media screen and (max-width: 605px) {
+  .photo-grid {
+    grid-template-columns: repeat(auto-fit, 343px);
   }
 }
 
