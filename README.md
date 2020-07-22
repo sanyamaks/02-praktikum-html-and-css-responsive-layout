@@ -14,4 +14,4 @@ HTML5, CSS3, BEM
 - Запустить проект - `npm run start`
 
 ## Ссылка на github pages:
-https://sanyamaks.github.io/04-web-application-infrastructure-webpack/
+https://sanyamaks.github.io/02-praktikum-html-and-css-responsive-layout/
